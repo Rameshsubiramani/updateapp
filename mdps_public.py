@@ -37,17 +37,7 @@ if (selected == 'Home'):
     
     # page title
     st.title('Multiple Disease Prediction System in ml')    
-    st.text("Diabetics predictin /n What is Diabetes?
-Español (Spanish) | Print
-Closeup of dictionary page showing definition of diabetes
-With diabetes, your body either doesn’t make enough insulin or can’t use it as well as it should.
-
-Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy.
-
-Your body breaks down most of the food you eat into sugar (glucose) and releases it into your bloodstream. When your blood sugar goes up, it signals your pancreas to release insulin. Insulin acts like a key to let the blood sugar into your body’s cells for use as energy.
-
-With diabetes, your body doesn’t make enough insulin or can’t use it as well as it should. When there isn’t enough insulin or cells stop responding to insulin, too much blood sugar stays in your bloodstream. Over time, that can cause serious health problems, such as heart disease, vision loss, and kidney disease.
-")
+    st.text(" What is Diabetes?")
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
