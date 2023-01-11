@@ -39,11 +39,10 @@ if (selected == 'Home'):
     st.title('Multiple Disease Prediction System in ml')    
     st.header(" What is Diabetes?")
     st.image('./image.jpg')
-    col1, col2 = st.columns(2)
+    col1, col2 ,col3= st.columns(3)
     col1=st.write('Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy.')
     col2=st.write('Your body breaks down most of the food you eat into sugar (glucose) and releases it into your bloodstream.')
-
-    
+    col3=st.write('When your blood sugar goes up, it signals your pancreas to release insulin. Insulin acts like a key to let the blood sugar into your body’s cells for use as energy.')  
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
