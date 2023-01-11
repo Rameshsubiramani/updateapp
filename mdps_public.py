@@ -247,9 +247,8 @@ if (selected == 'Home'):
    tab1, tab2 = st.tabs(["Tab 1", "Tab2"])
    tab1.write("this is tab 1")
    tab2.write("this is tab 2")
-
-# You can also use "with" notation:
- with tab1:
+ #You can also use "with" notation:
+with tab1:
   st.radio('Select one:', [1, 2])
 # col1 is larger.
    st.header(" What is Diabetes?")
