@@ -38,7 +38,7 @@ if (selected == 'Home'):
     # page title
     st.title('Multiple Disease Prediction System in ml') 
     # Insert containers separated into tabs:
-    tab1, tab2 = st.tabs(["Diabetes", "Heartattack"])
+    tab1, tab2 = st.tabs(["D1", "H1"])
     tab1.write("Diabetics")
     tab2.write("Heart attack")
     st.header(" What is Diabetes?")
