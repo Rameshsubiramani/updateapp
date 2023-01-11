@@ -258,7 +258,8 @@ if (selected == 'Home'):
    col4=st.write('With diabetes, your body doesn’t make enough insulin or can’t use it as well as it should. When there isn’t enough insulin or cells stop responding to insulin, too much blood sugar stays in your bloodstream.') 
    col5=st.write('Over time, that can cause serious health problems, such as heart disease, vision loss, and kidney disease.There isn’t a cure yet for diabetes, but losing weight, eating healthy food, and being active can really help. Other things you can do to help:')
    col6=st.write('Take medicine as prescribed. *Get diabetes self-management education and support. *Make and keep health care appointments.')
-   tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
+    
+tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
 
 with tab1:
    st.header("A cat")
