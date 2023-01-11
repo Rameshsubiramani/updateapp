@@ -16,11 +16,9 @@ heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
 parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
-st.markdown(
+  st.background-image: uri(‘image.jpg’);
 
-   background-image: url(‘image.jpg’);
 
-   unsafe_allow_html=True)
 
 
 
