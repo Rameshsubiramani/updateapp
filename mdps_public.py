@@ -31,35 +31,7 @@ with st.sidebar:
                            'Parkinsons Prediction'],
                           icons=['activity','heart','person'],
                           default_index=0)
-    
-# Diabetes Prediction Page
-if (selected == 'Home'):
-    # page title
-    st.title('Multiple Disease Prediction System in ml') 
-    # Insert containers separated into tabs:
-    tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
 
-with tab1:
-   st.header("A cat")
-   st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
-
-with tab2:
-   st.header("A dog")
-   st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-
-with tab3:
-   st.header("An owl")
-   st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
-    
-   st.header(" What is Diabetes?")
-   st.image('./image.jpg')
-   col1, col2 ,col3,col4,col5,col6= st.columns(6)
-   col1=st.write('Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy.')
-   col2=st.write('Your body breaks down most of the food you eat into sugar (glucose) and releases it into your bloodstream.')
-   col3=st.write('When your blood sugar goes up, it signals your pancreas to release insulin. Insulin acts like a key to let the blood sugar into your body’s cells for use as energy.')  
-   col4=st.write('With diabetes, your body doesn’t make enough insulin or can’t use it as well as it should. When there isn’t enough insulin or cells stop responding to insulin, too much blood sugar stays in your bloodstream.') 
-   col5=st.write('Over time, that can cause serious health problems, such as heart disease, vision loss, and kidney disease.There isn’t a cure yet for diabetes, but losing weight, eating healthy food, and being active can really help. Other things you can do to help:')
-   col6=st.write('Take medicine as prescribed. *Get diabetes self-management education and support. *Make and keep health care appointments.')
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
     
@@ -270,6 +242,37 @@ if (selected == "Parkinsons Prediction"):
           parkinsons_diagnosis = "The person does not have Parkinson's disease"
         
     st.success(parkinsons_diagnosis)
+    
+    
+        
+#  Home Page
+if (selected == 'Home'):
+    # page title
+    st.title('Multiple Disease Prediction System in ml') 
+    # Insert containers separated into tabs:
+    tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
+
+with tab1:
+   st.header("A cat")
+   st.image("https://static.streamlit.io/examples/cat.jpg", width=200)
+
+with tab2:
+   st.header("A dog")
+   st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
+
+with tab3:
+   st.header("An owl")
+   st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
+    
+   st.header(" What is Diabetes?")
+   st.image('./image.jpg')
+   col1, col2 ,col3,col4,col5,col6= st.columns(6)
+   col1=st.write('Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy.')
+   col2=st.write('Your body breaks down most of the food you eat into sugar (glucose) and releases it into your bloodstream.')
+   col3=st.write('When your blood sugar goes up, it signals your pancreas to release insulin. Insulin acts like a key to let the blood sugar into your body’s cells for use as energy.')  
+   col4=st.write('With diabetes, your body doesn’t make enough insulin or can’t use it as well as it should. When there isn’t enough insulin or cells stop responding to insulin, too much blood sugar stays in your bloodstream.') 
+   col5=st.write('Over time, that can cause serious health problems, such as heart disease, vision loss, and kidney disease.There isn’t a cure yet for diabetes, but losing weight, eating healthy food, and being active can really help. Other things you can do to help:')
+   col6=st.write('Take medicine as prescribed. *Get diabetes self-management education and support. *Make and keep health care appointments.')
 
 
 
