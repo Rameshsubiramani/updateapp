@@ -37,7 +37,8 @@ if (selected == 'Home'):
     
     # page title
     st.title('Multiple Disease Prediction System in ml')    
-    st.text(" What is Diabetes?")
+    st.header(" What is Diabetes?")
+    st.image('./image.jpg')
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
