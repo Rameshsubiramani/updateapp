@@ -38,13 +38,13 @@ if (selected == 'Home'):
     st.title('Multiple Disease Prediction System in ml') 
     tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
 
-with tab1:
+   with tab1:
    st.header("A cat")
 
-with tab2:
+   with tab2:
    st.header("A dog")
 
-with tab3:
+   with tab3:
    st.header("An owl")
     # Insert containers separated into tabs:
     st.header(" What is Diabetes?")
