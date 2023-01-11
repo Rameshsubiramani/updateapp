@@ -37,6 +37,7 @@ if (selected == 'Home'):
     
     # page title
     st.title('Multiple Disease Prediction System in ml')    
+    st.text("Diabetics prediction")
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
