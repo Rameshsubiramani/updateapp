@@ -36,7 +36,11 @@ with st.sidebar:
 if (selected == 'Home'):
     
     # page title
-    st.title('Multiple Disease Prediction System in ml')    
+    st.title('Multiple Disease Prediction System in ml') 
+    # Insert containers separated into tabs:
+    tab1, tab2 = st.tabs(["Diabetes", "Heartattack"])
+    tab1.write("Diabetics")
+    tab2.write("Heart attack")
     st.header(" What is Diabetes?")
     st.image('./image.jpg')
     col1, col2 ,col3,col4,col5,col6= st.columns(6)
