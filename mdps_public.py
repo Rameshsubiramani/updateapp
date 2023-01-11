@@ -44,7 +44,8 @@ if (selected == 'Home'):
     col2=st.write('Your body breaks down most of the food you eat into sugar (glucose) and releases it into your bloodstream.')
     col3=st.write('When your blood sugar goes up, it signals your pancreas to release insulin. Insulin acts like a key to let the blood sugar into your body’s cells for use as energy.')  
     col4=st.write('With diabetes, your body doesn’t make enough insulin or can’t use it as well as it should. When there isn’t enough insulin or cells stop responding to insulin, too much blood sugar stays in your bloodstream.') 
-# Diabetes Prediction Page
+    col5=st.write('Over time, that can cause serious health problems, such as heart disease, vision loss, and kidney disease.There isn’t a cure yet for diabetes, but losing weight, eating healthy food, and being active can really help. Other things you can do to help:')
+    # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
     
     # page title
