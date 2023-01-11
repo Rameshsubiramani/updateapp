@@ -249,8 +249,8 @@ if (selected == 'Home'):
    tab2.write("this is tab 2")
 
 # You can also use "with" notation:
->>> with tab1:
->>>   st.radio('Select one:', [1, 2])
+ with tab1:
+  st.radio('Select one:', [1, 2])
 # col1 is larger.
    st.header(" What is Diabetes?")
    st.image('./image.jpg')
