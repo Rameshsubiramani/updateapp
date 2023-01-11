@@ -16,7 +16,7 @@ heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
 parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
-st.sidebar.image("/image.jpg", use_column_width=True)
+st.sidebar.image("/image.jpg", use_column_width=True,'rb')
 
 
 
