@@ -16,7 +16,7 @@ heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
 
 parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
-st.sidebar.image("/image.jpg", use_column_width=True,'rb')
+
 
 
 
@@ -26,6 +26,7 @@ st.sidebar.image("/image.jpg", use_column_width=True,'rb')
 with st.sidebar:
     
     selected = option_menu('Multiple Disease Prediction System',
+                           background=/image.jpg,
                           
                           ['Diabetes Prediction',
                            'Heart Disease Prediction',
