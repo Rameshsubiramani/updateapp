@@ -36,7 +36,7 @@ with st.sidebar:
 if (selected == ' Home'):
     
     # page title
-    st.title('Diseas Prediction using ML')    
+    st.title('Multiple Disease Prediction System')    
     
 # Diabetes Prediction Page
 if (selected == 'Diabetes Prediction'):
