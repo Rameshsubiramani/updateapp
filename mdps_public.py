@@ -51,8 +51,8 @@ with tab3:
    st.header("An owl")
    st.image("https://static.streamlit.io/examples/owl.jpg", width=200)
     
-    st.header(" What is Diabetes?")
-    st.image('./image.jpg')
+   st.header(" What is Diabetes?")
+   st.image('./image.jpg')
     col1, col2 ,col3,col4,col5,col6= st.columns(6)
     col1=st.write('Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy.')
     col2=st.write('Your body breaks down most of the food you eat into sugar (glucose) and releases it into your bloodstream.')
