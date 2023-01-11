@@ -248,7 +248,7 @@ if (selected == "Parkinsons Prediction"):
 #  Home Page
 if (selected == 'Home'):
     # page title
-    st.title('Multiple Disease Prediction System in ml') 
+   st.title('Multiple Disease Prediction System in ml') 
    st.header(" What is Diabetes?")
    st.image('./image.jpg')
    col1, col2 ,col3,col4,col5,col6= st.columns(6)
