@@ -34,11 +34,18 @@ with st.sidebar:
     
 # Diabetes Prediction Page
 if (selected == 'Home'):
-     tab1, tab2 = st.tabs(["Tab 1", "Tab2"])
-    tab1.write('this is tab 1')
-    tab2.write('this is tab 2')
     # page title
     st.title('Multiple Disease Prediction System in ml') 
+    tab1, tab2, tab3 = st.tabs(["Cat", "Dog", "Owl"])
+
+with tab1:
+   st.header("A cat")
+
+with tab2:
+   st.header("A dog")
+
+with tab3:
+   st.header("An owl")
     # Insert containers separated into tabs:
     st.header(" What is Diabetes?")
     st.image('./image.jpg')
